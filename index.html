@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propreté Click - Nettoyage professionnel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"  href="style.css">
+
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+
+            <div class="logo">
+  <img src="image/logo1.png" alt="Logo Propreté Click" class="logo-img">
+  Propreté<span>Click</span>
+</div>
+
+
+           <!--<div class="logo">Propreté<span>Click</span></div>-->
+            <ul class="nav-links">
+                <li><a href="#story">À propos</a></li>
+                <li><a href="#pricing">Tarifs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero">
+            <h1>Nettoyage professionnel pour vos espaces</h1>
+            <p>Propreté Click offre des services de nettoyage de haute qualité pour hôtels, Airbnb, bureaux et chantiers. Faites confiance à nos experts pour un environnement impeccable.</p>
+            <a href="#contact" class="cta-button">Demander un devis</a>
+        </div>
+    </header>
+    
+    <!-- Storytelling -->
+    <section class="story" id="story">
+        <h2 class="section-title">Notre histoire</h2>
+        <div class="story-content">
+            <div class="story-text">
+                <h3>Depuis 2010, nous redéfinissons les standards du nettoyage</h3>
+                <p>Propreté Click a été fondée avec une vision simple : fournir des services de nettoyage exceptionnels qui dépassent les attentes de nos clients. Ce qui a commencé comme une petite entreprise familiale est rapidement devenu un leader reconnu dans le secteur du nettoyage immobilier.</p>
+                <p>Notre équipe est composée de professionnels dévoués, formés aux techniques les plus avancées et équipés des meilleurs produits écologiques. Nous croyons que la propreté n'est pas seulement une question d'apparence, mais aussi de santé et de bien-être.</p>
+                <p>Aujourd'hui, nous sommes fiers de servir des centaines de clients satisfaits, des petits Airbnb aux grands complexes hôteliers, en passant par les bureaux d'entreprise et les chantiers de construction.</p>
+            </div>
+            <div class="story-image">
+                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Équipe de nettoyage Propreté Click">
+            </div>
+        </div>
+    </section>
+
+<br>
+
+ <section class="section engagements">
+    <h2>Nos engagements</h2>
+    <ul>
+      <li>🧑‍💼 Interlocuteur dédié pour chaque client</li>
+      <li>✅ Contrôle qualité régulier</li>
+      <li>🌿 Utilisation de produits éco-responsables</li>
+      <li>👥 Équipe en CDI formée et professionnelle</li>
+    </ul>
+  </section>
+
+
+    
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <h2 class="section-title">Nos tarifs</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Appartements Airbnb</h3>
+                <div class="price">€75 <span>/nettoyage</span></div>
+                <ul class="pricing-features">
+                    <li>Nettoyage complet</li>
+                    <li>Changement de linge</li>
+                    <li>Restockage produits</li>
+                    <li>Inspection qualité</li>
+                    <li>Service express disponible</li>
+                </ul>
+                <a href="#contact" class="pricing-button">Réserver</a>
+            </div>
+            
+            <div class="pricing-card">
+                <h3>Bureaux</h3>
+                <div class="price">€250 <span>/mois</span></div>
+                <ul class="pricing-features">
+                    <li>Nettoyage quotidien</li>
+                    <li>Sanitaires désinfectés</li>
+                    <li>Vidage des poubelles</li>
+                    <li>Sol lavé et ciré</li>
+                    <li>Surfaces désinfectées</li>
+                </ul>
+                <a href="#contact" class="pricing-button">Réserver</a>
+            </div>
+            
+            <div class="pricing-card">
+                <h3>Chantiers</h3>
+                <div class="price">Sur devis</div>
+                <ul class="pricing-features">
+                    <li>Nettoyage post-travaux</li>
+                    <li>Élimination des déchets</li>
+                    <li>Nettoyage en profondeur</li>
+                    <li>Équipement spécialisé</li>
+                    <li>Adapté à votre chantier</li>
+                </ul>
+                <a href="#contact" class="pricing-button">Demander un devis</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contactez-nous</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service demandé</label>
+                    <select id="service" name="service" required>
+                        <option value="">Sélectionnez un service</option>
+                        <option value="airbnb">Nettoyage Airbnb</option>
+                        <option value="hotel">Nettoyage Hôtel</option>
+                        <option value="bureaux">Nettoyage de Bureaux</option>
+                        <option value="chantier">Nettoyage de Chantier</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Envoyer la demande</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Propreté Click</h3>
+                <p>Votre partenaire de confiance pour des espaces immaculés. Professionnalisme, qualité et respect de l'environnement.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Rue du Propre, 75000 Paris</p>
+                <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                <p><i class="fas fa-envelope"></i> contact@propreteclick.fr</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horaires</h3>
+                <p>Lundi - Vendredi: 8h - 19h</p>
+                <p>Samedi: 9h - 17h</p>
+                <p>Dimanche: Urgences seulement</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Propreté Click. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+    <script>
+        
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
